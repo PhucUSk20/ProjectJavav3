@@ -63,9 +63,9 @@ First, You need create DATABASE
 
 Then you need to adjust the IP of the network you are using as your local network, your SQLServer account username and password in the SQLConnection.java and SQLConnectionInBackGround.java files. 
 -----------------------------------------------------------------------
-      private static String ip = "192.168.1.6";
-      private static String username = "phuc";
-      private static String password = "123";
+      private static String ip = "yourip";
+      private static String username = "yourusername";
+      private static String password = "yourpassword";
 
 -- Insert data into the ATTEND_STUDENT_LIST.
 INSERT INTO ATTEND_STUDENT_LIST (date_attendace,attendance,classID,Code_student) VALUES ('2-10-2023','absent','1','20200314');
