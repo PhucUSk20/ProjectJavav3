@@ -32,6 +32,11 @@ First, You need create DATABASE
 	Id NVARCHAR(255),
     	FOREIGN KEY (class_id) REFERENCES CLASS(id)
 	);
+ 	DROP TABLE Attendance_List;
+	CREATE TABLE Attendance_List(
+	ID INT PRIMARY KEY IDENTITY(1,1),
+	Name NVARCHAR(255)
+	)
     CREATE TABLE ATTEND_STUDENT_LIST(
         unique_id INT PRIMARY KEY IDENTITY(1,1),
         date_attendace DATE NOT NULL,
